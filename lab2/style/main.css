@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Tajawal:wght@300&display=swap');
+:root{
+    --primary-color: #37474f;
+    --dark-color: #102027;
+    --light-color: #62727b;
+    --text-color: rgb(255, 255, 255);
+    
+}
+
+html, body{
+    background: var(--light-color);
+    color: var(--text-color);
+    font-family: 'Tajawal', sans-serif;
+    height: 100%; overflow: hidden
+}
+
+.bodyish{
+    background: rgb(33,36,41);
+    background: linear-gradient(180deg, rgba(33,36,41,1) 28%, rgba(98,114,123,1) 100%);
+}
+.body1{
+    background: rgb(123, 127, 133);
+    background: linear-gradient(180deg, rgb(138, 156, 187) 28%, rgb(212, 217, 219) 100%);
+}
+a{
+    color: var(--text-color);
+}
+h1,h2,h3,h4,h5{
+    
+}
+.display-6{
+    font-family: 'Orbitron';
+    font-size: 32px;
+    color:rgba(255, 255, 255, 0.4)
+}
+
+.centerDiv{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.dropdown-menu {
+    width: 300px !important;
+    font-size: 24px;
+}

@@ -1,50 +1,122 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link href="./style/main.css" rel="stylesheet" >
-    <title>Hello, world!</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+      />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+      />
+    <link href="./style/main.css" rel="stylesheet" />
+
+    <title>Lab1</title>
   </head>
   <body>
-    
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-        <div class="container-fluid my-lg-2">
-          <ul class="navbar-nav nav-pills me-auto mx-auto">
-            <li class="nav-item px-3">
-              <a class="navbar-brand active " aria-current="page" href="#">
-                Home
-              </a>
-            </li>
-            <li class="nav-item px-3">
-              <a class="navbar-brand ">
-                My Hobbies
-              </a>
-            </li>
-            <li class="nav-item px-3">
-              <a class="navbar-brand" >
-                My Projects
-              </a>
-            </li>
-            <li class="nav-item px-3">
-              <a class="navbar-brand">
-                My Family
-              </a>
-            </li>
-          </ul>
+    <div class="bodyish">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-gradient"
+          style="padding: 0px;">
+          <div class="container-fluid my-lg-2 justify-content-center shadow p-3
+            mb-5 bg-dark rounded" style="margin:0px !important">
+            <ul class="navbar-nav align-items-center">
+              <li class="nav-item mx-sm-3 mx-md-5">
+                <a class="navbar-brand active" aria-current="page" href="#">
+                  Home
+                </a>
+              </li>
+
+              <li class="nav-item dropdown mx-sm-3 mx-md-5">
+                <a
+                  class="navbar-brand dropdown-toggle"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  href="">
+                  Projects
+
+                </a>
+                <ul
+                  class="dropdown-menu bg-dark dropdown-menu-dark"
+                  aria-labelledby="navbarDropdownMenuLink">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://www.facebook.com/huuhyube"
+                      target="_blank">Syberpong</a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://projectarin.com/"
+                      target="_blank">Project Arin</a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://tomujin-digital-landing-page.vercel.app/"
+                      target="_blank">Tomujin Digital</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item mx-sm-3 mx-md-5">
+                <a class="navbar-brand" href="subpages/contactme.html">
+                  Contact Me
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div
+          class="row align-content-center"
+          style="margin-top: 80px; justify-content: start">
+          <div class="col-md-8">
+            <h1 class="display-2"><u>Hi, I'm Bilguudei👋</u></h1>
+            <p class="" style="font-size: 30px; padding: 5px 0"></p>
+            <h1 class="display-6"><small>>my.education</small></h1>
+            <p class="" style="font-size: 30px; padding: 0px 0">
+              I graduated at Olonlog. I'm now a freshman at National University
+              of Mongolia.
+            </p>
+            <h1 class="display-6"><small>>my.hobby</small></h1>
+            <p class="" style="font-size: 30px; padding: 0px 0">
+              I am enthusiastic about <b>computer science</b> in general. Also,
+              I'm into <b>game-development</b> and <b>web-development</b>. The
+              list would go on with chess, basketball, volleyball, but I'll save
+              your time.
+            </p>
+            <h1 class="display-6"><small>>my.real.hobby</small></h1>
+            <p class="" style="font-size: 30px; padding: 0px 0">
+              Aside from working, you'll find me playing video games.
+            </p>
+          </div>
+          <div class="col-md-4 centerDiv">
+            <img
+              class="imageB"
+              src="./assets/portfolioPhoto.png"
+              alt="this is a picture of mine"
+              width="350px"
+              />
+            <p>
+              <i><small>don't look at this. I know you are cringing too</small></i>
+            </p>
+          </div>
         </div>
-      </nav>
-    <div>
-
+      </div>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
     </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-
-
   </body>
 </html>
