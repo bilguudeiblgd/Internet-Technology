@@ -1,5 +1,4 @@
 # Internet-Technology
 This repository is for a class(internet technology).
 
-
-Change the BRANCH to see different LABS
+URL: https://bilguudeiblgd.github.io/Internet-Technology/lab<number>/
