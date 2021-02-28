@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Tajawal:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap');
 :root{
     --primary-color: #37474f;
     --dark-color: #102027;
@@ -29,8 +30,9 @@ a{
 h1,h2,h3,h4,h5{
     
 }
+
 .display-6{
-    font-family: 'Orbitron';
+    font-family: 'Lexend+Mega';
     font-size: 32px;
     color:rgba(255, 255, 255, 0.4)
 }
