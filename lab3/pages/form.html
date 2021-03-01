@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="../style/global.css">
+        <title>Зар</title>
+    </head>
+    <body>
+        <nav class="navbar fixed-top navbar-light bg-light px-2">
+            <div class="container space-between">
+                <div class="firstNav">
+                    <a class="navbar-brand" href="../index.html"><img
+                            src="../assets/house.png"
+                            style="width: 60%;"></a>
+                    <div class="navbar-nav space-between">
+                        <a class="nav-link mx-3" href="#">Зар Нэмэх</a>
+                        <a class="nav-link mx-3" href="#">Үнэ</a>
+                        <a class="nav-link disabled mx-3" href="#" tabindex="-1"
+                            aria-disabled="true">Цаашдаа</a>
+                    </div>
+                </div>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search"
+                        placeholder="Байр" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Хайх</button>
+                </form>
+
+            </div>
+
+        </nav>
+
+        <div class="container-sm my-5 pt-5" style="max-width: 650px;">
+            <form class="needs-validation">
+
+                <div class="row mb-4">
+                    <div class="col">
+                        <label class="form-label" for="ulHudluh"><b>Юу Зарах?</b></label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio"
+                                name="ulHudluh" id="bair">
+                            <label class="form-check-label"
+                                for="bair">
+                                Байр
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio"
+                                name="ulHudluh" id="house" checked>
+                            <label class="form-check-label"
+                                for="flexRadioDefault2">
+                                House
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio"
+                                name="ulHudluh" id="grash" checked>
+                            <label class="form-check-label"
+                                for="flexRadioDefault2">
+                                Граш
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Text input -->
+                <div class="form-outline mb-4">
+                    <label class="form-label" for="garchig"><b>Гарчиг</b></label>
+                    <input type="text" id="garchig" class="form-control" required
+                        />
+                        <div class="valid-feedback">
+                            Looks good!
+                          </div>
+                </div>
+
+                <!-- Text input -->
+                <div class="form-outline mb-4">
+                    <label class="form-label" for="bairshil"><b>Байршил</b></label>
+                    <input type="text" id="bairshil" class="form-control" required
+                        />
+
+                </div>
+
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                    <label class="form-label" for="email"><b>Мэйл Хаяг</b></label>
+                    <input type="email" id="email" class="form-control" required
+                        />
+                </div>
+
+                <!-- Number input -->
+                <div class="form-outline mb-4">
+                    <label class="form-label" for="form6Example6"><b>Зар
+                            Оруулсан Огноо</b></label>
+                    <input type="date" id="form6Example6" class="form-control" required
+                        />
+
+                </div>
+                <div class="form-outline mb-4">
+                    <label class="form-label" for="form6Example6"><b>Хэмжээ</b><i>(м
+                            кватрат аар)</i></label>
+                    <input type="number" id="form6Example6" class="form-control" required
+                        />
+
+                </div>
+
+                
+                <div class="form-outline mb-4">
+                    <label for="customRange2" class="form-label"><b>Өрөөний тоо</b><i>(1-8)</i></label>
+                    <input type="range" class="form-range" min="1" max="8"/>
+                </div>
+                
+                <!-- Message input -->
+                <div class="form-outline mb-4">
+                    <textarea class="form-control" id="form6Example7" rows="4"></textarea>
+                    <label class="form-label" for="form6Example7">Нэмэлт мэдээлэл</label>
+                </div>
+
+                <!-- Checkbox -->
+                <div class="form-check d-flex justify-content-center mb-4">
+                    <input
+                        class="form-check-input me-2"
+                        type="checkbox"
+                        value=""
+                        id="form6Example8"
+                        unchecked required
+                        />
+                    <label class="form-check-label" for="form6Example8"> Agree to our terms? </label>
+                </div>
+
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-primary btn-block mb-4">Нийтлэх
+                    </button>
+            </form>
+        </div>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+            crossorigin="anonymous"></script>
+    </body>
+</html>

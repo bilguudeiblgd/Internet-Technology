@@ -1,0 +1,50 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Slideshow */
+// .col{
+//     padding: 0;
+// }
+.houses {
+  img {
+    transition: 200ms ease-out;
+  }
+  img:hover {
+    border: black 4px solid;
+    transition: 300ms ease-in-out;
+    transform: scale(1.06);
+  }
+}
+
+/* Navbar*/
+
+.space-between {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.firstNav {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+/*Global*/
+a {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=global.css.map */
+$breakpoint-tablet: 768px;
+@media (max-width: $breakpoint-tablet){
+    .d-flex{
+        display: none !important;
+    }
+    
+}
+@media (min-width: $breakpoint-tablet){
+    
+    
+}
