@@ -1,0 +1,33 @@
+* {
+}
+/* default styling */
+body {
+  font-family: "Montserrat";
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-image: linear-gradient(to top, #434343 0%, black 100%);
+}
+
+.container {
+  margin: auto;
+  max-width: 900px;
+  height: 100vh;
+  border: solid 1px #434343;
+  border-radius: 5px;
+  padding: 8px 80px;
+}
+
+h1{
+    font-family: 'Krona One';
+    font-weight: 200;
+    text-transform: uppercase;
+}
+h6{
+    font-family: 'Monstserrat';
+    font-weight: 200;
+}
+
+/* Building */
+
