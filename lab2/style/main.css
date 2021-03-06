@@ -1,50 +1,87 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Tajawal:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap');
-:root{
-    --primary-color: #37474f;
-    --dark-color: #102027;
-    --light-color: #62727b;
-    --text-color: rgb(255, 255, 255);
-    
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&family=Tajawal:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap");
+:root {
+  --primary-color: #37474f;
+  --dark-color: #102027;
+  --light-color: #62727b;
+  --text-color: rgb(255, 255, 255);
 }
 
-html, body{
-    background: var(--light-color);
-    color: var(--text-color);
-    font-family: 'Tajawal', sans-serif;
-    height: 100%; overflow: hidden
+html,
+body {
+  background: var(--light-color);
+  color: var(--text-color);
+  font-family: "Tajawal", sans-serif;
+  height: 100%;
 }
 
-.bodyish{
-    background: rgb(33,36,41);
-    background: linear-gradient(180deg, rgba(33,36,41,1) 28%, rgba(98,114,123,1) 100%);
+.bodyish {
+  background: rgb(33, 36, 41);
+  background: linear-gradient(
+    180deg,
+    rgba(33, 36, 41, 1) 28%,
+    rgba(98, 114, 123, 1) 100%
+  );
 }
-.body1{
-    background: rgb(123, 127, 133);
-    background: linear-gradient(180deg, rgb(138, 156, 187) 28%, rgb(212, 217, 219) 100%);
+.body1 {
+  background: rgb(123, 127, 133);
+  background: linear-gradient(
+    180deg,
+    rgb(138, 156, 187) 28%,
+    rgb(212, 217, 219) 100%
+  );
 }
-a{
-    color: var(--text-color);
+a {
+  color: var(--text-color);
 }
-h1,h2,h3,h4,h5{
-    
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  z-index: 9999;
 }
 
-.display-6{
-    font-family: 'Lexend+Mega';
-    font-size: 32px;
-    color:rgba(255, 255, 255, 0.4)
+.display-6 {
+  font-family: "Lexend+Mega";
+  font-size: 32px;
+  color: rgba(255, 255, 255, 0.4);
 }
 
-.centerDiv{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.centerDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .dropdown-menu {
-    width: 300px !important;
-    font-size: 24px;
+  width: 300px !important;
+  font-size: 24px;
+}
+/* reusable */
+.margin_bottom {
+  margin-bottom: 2em;
+}
+/* custom */
+.mybtndiv {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2em;
+  
+}
+.mybtn {
+  cursor: pointer;
+  position: relative;
+  text-decoration: none;
+  padding: 18px 60px;
+  font-size: 24px;
+  line-height: normal;
+  border-radius: 32px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  z-index: 9999;
 }
