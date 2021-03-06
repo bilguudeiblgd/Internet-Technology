@@ -1,0 +1,83 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600&display=swap');
+/* General Styling */
+html{
+    font-size: 100%;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Raleway', 'Roboto', 'Open sans';
+}
+h1,h2,h3,h6{
+    margin: 0;
+    font-family: 'Josefin Sans', 'Raleway'
+}
+h1{
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+h2{
+    font-size: 1.4em;
+    
+}
+h3{
+    color: #8d8d8d;
+    font-size: 1.4em;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: #2c2c2c;
+    cursor: pointer;
+}
+p{
+    margin: 0;
+    font-size: 0.8em;
+    
+}
+.container{
+    position: relative;
+    margin: 24px auto;
+    
+    max-width: 900px;
+    border: 2px solid black
+}
+header{
+    margin-top: 100px;
+}
+.group{
+    margin: 56px auto;
+    max-width: 700px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.group .title{
+    display: block;
+    height: auto;
+    width: 250px;
+    text-align: end;
+}
+.group .content{
+    margin: 0px 40px;
+    width: 100%;
+    
+}
+.group .content-title{
+    
+}
+.group .content-paragraph{
+    margin: 16px 0 40px 0;
+}
+
+/* custom */
+.inline_block{
+    display: inline-block;
+}
+.transparent_title{
+    margin: 0 16px;
+}
